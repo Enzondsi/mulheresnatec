@@ -1,0 +1,127 @@
+@font-face {
+    font-family: myfont;
+    src: url(./Fonts/LinkinPark.ttf);
+}
+
+body {
+    font-family:Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('https://i.pinimg.com/736x/e5/77/e4/e577e48f509306309f2af02b45037aba.jpg');
+    background-size: cover;  
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-color: #f4f4f4; 
+    font-size: x-large; 
+   
+}
+header{
+    position: fixed; 
+    top: 0; 
+    left: 0px; 
+    width: 100%; 
+    background-color: rgba(103, 82, 219, 0.602); 
+    color: rgb(255, 255, 255);
+    padding: 10px 0;
+    text-align: center;
+    z-index: 1000; 
+   
+}
+header h1 {
+    margin: 0;
+   background-image: url(https://media.tenor.com/-fG6_QSIjZAAAAAM/amicreeper-galaxy.gif);
+    background-size:cover;
+    -webkit-background-clip: text;
+    color:transparent;
+
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0; 
+    
+}
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+    border: #000000 solid   ;
+}
+
+nav ul li a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+main {
+    padding: 100px 50px 50px; 
+    width: 75%;
+    margin: auto;
+}
+
+h2 {
+    color: #000000;
+    border: #000000 solid 4px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table, th, td {
+    border: 3px solid #000000;
+    padding: 10px;
+    text-align: left;
+}
+
+figure {
+    display: inline-block;
+    margin: 20px;
+    text-align: center;
+}
+
+img {
+    width: 200px;
+    height: auto;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: auto;
+}
+
+form label {
+    margin-top: 10px;
+}
+
+form input,
+form textarea {
+    margin-top: 5px;
+    border: 1px solid #0d00ff;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+form button {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #56328f;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #232fb0;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+    border: #000000 solid 7px;
+    font-family: myfont;
+    letter-spacing: 2px;
+}
